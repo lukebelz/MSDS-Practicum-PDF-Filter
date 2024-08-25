@@ -220,7 +220,7 @@ if __name__ == '__main__':
 		if(".xlsx" in sys.argv[1]):
 			df = pd.read_excel(sys.argv[1])
 		elif(".csv" in sys.argv[1]):
-			df = pd.read_excel(sys.argv[1])
+			df = pd.read_csv(sys.argv[1])
 		else:
 			print("Error: file arguement missing or incorrect")
 			sys.exit(0)
