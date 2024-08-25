@@ -138,25 +138,6 @@ def generateHTML(practicums):
 					padding-bottom: 5px;
 					color: #555;
 				}}
-				.data-row {{
-					display: flex;
-					justify-content: space-between;
-					padding: 8px 0;
-					border-bottom: 1px solid #ccc;
-				}}
-				.data-row:last-child {{
-					border-bottom: none;
-				}}
-				.data-row .label {{
-					font-weight: bold;
-					color: #333;
-					flex: 1;
-				}}
-				.data-row .value {{
-					flex: 2;
-					text-align: right;
-					color: #555;
-				}}
 			</style>
 		</head>
 		<body>"""
